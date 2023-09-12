@@ -1,0 +1,21 @@
+package com.naver.security;
+
+import java.io.IOException;
+
+
+@Service
+public class LoginFailHandler implements AuthenticationFailureHandler{
+	private static final Logger logger = LoggerFactory.getLogger(LoginFailHandler.class);
+	
+	@Override
+	public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response,
+			AuthenticationException exception) throws IOException, ServletException{
+		
+		HttpSession session = request.getSession();
+		logger.info(exception.getMessage());
+		logger.info("로그인 실패");
+		session.setAttribute("loginfail", "loginFailMsg");
+		String url = request.getContextPath() + "/member/login";
+		response.sendRedirect(url);
+	}
+}

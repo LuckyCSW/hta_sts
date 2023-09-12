@@ -1,0 +1,10 @@
+package com.naver.security;
+
+import org.slf4j.Logger;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.stereotype.Service;
+
+@Service
+public class LoginSuccessHandler implements AuthenticationSuccessHandler{
+	private static final Logger logger = 
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 해당 패키지에서 New -> Other -> Spring Bean Configuration File -> Next ->applicationContext 
+	입력 -> Next -> beans 클릭 -> Finish -->
+
+<!-- 스프링 환경 설정 파일은 이름은 무엇이든 상관없지만 <beans>를 루트 엘리먼트로 사용합니다.
+루트 엘리먼트 beans에는 XML 스키마(XML 문서 타입에 대해 기술한 것) 관련 정보가 설정됩니다. -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean 생성합니다. -->
+	<bean id="m" class="com.naver.myhome1.sample3.MessageBeanEn" />
+
+	<bean id="m1" class="com.naver.myhome1.sample3.MessageBeanKo" />
+
+<!-- 
+	1. 	applicationContext.xml은 스프링 환경 설정 파일입니다.
+		이곳에서 객체를 생성하기 위한 작업을 진행합니다.
+      	스프링 환경 설정 파일은 이름은 무엇이든 상관없지만 <beans>를 루트 엘리먼트로 사용합니다.
+      	<beans> 아래 엘리먼트는 <bean> 엘리먼트를 이용하여 빈에 관한 정의를 기술합니다.
+   
+	2. 	스프링에서는 자바 객체를 bean이라고 부릅니다.
+
+	3. 	의존성 주입(Dependency Injection : DI) :
+	   	- 객체 사이의 의존 관계를 자기 자신이 아닌 외부에 의해서 설정된다는 개념으로
+     	  의존하는 객체를 직접 생성하지 않고 의존 객체를 전달받는 방식을 사용합니다.
+     	  
+ -->
+</beans>

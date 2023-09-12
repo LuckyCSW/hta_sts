@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ui.wizards.new.folder"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.debug.ui.java"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
+			<item value="org.eclipse.m2e"/>
+			<item value="org.eclipse.pde.PDE"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+			<item value="org.eclipse.pde.userAssistance"/>
+			<item value="org.eclipse.wst.web.ui"/>
+			<item value="org.eclipse.jst.ws.ui.new"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\Spring\0_Spring소스\230906_수_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230905_화_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230904_월_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230901_금_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230831_목_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230830_수_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230829_화_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230828_월_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230825_금_spring.zip"/>
+			<item value="D:\Spring\0_Spring소스\230824_목_spring.zip"/>
+		</list>
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".js"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.wst.jsdt.chromium.debug.ui.editors.JsEditor"/>
+	</section>
+</section>

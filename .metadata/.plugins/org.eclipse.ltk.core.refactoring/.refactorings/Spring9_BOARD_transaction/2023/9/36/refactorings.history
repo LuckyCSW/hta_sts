@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AOP정리&apos; to &apos;Spring10_Security&apos;&#x0D;&#x0A;- Original project: &apos;Spring9_BOARD_transaction&apos;&#x0D;&#x0A;- Destination element: &apos;Spring10_Security&apos;&#x0D;&#x0A;- Original element: &apos;AOP정리&apos;" description="Copy file" destination="=Spring10_Security" element1="AOP정리" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1693883131588" units="0" version="1.0"/>
+</session>
